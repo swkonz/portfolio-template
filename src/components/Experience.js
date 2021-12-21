@@ -4,14 +4,14 @@ export default function Skills() {
   return (
     <section id="experience">
       <div className="row">
-        {data.experience.groups.map((exp) => {
+        {data.experience.groups.map((exp, i) => {
           return (
-            <div className="column experience-group">
+            <div className="column experience-group" key={i}>
               <h1 className="experience-title">{exp.title}</h1>
               <ul className="experience-list">
-                {exp.items.map((item) => {
+                {exp.items.map((item, j) => {
                   return (
-                    <li className="experience-item">
+                    <li className="experience-item" key={j}>
                       <div className="exp-column">
                         <div className="exp-content">
                           <div className="exp-year">{item.range}</div>
