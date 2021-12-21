@@ -1,7 +1,7 @@
 {
     "aboutDescription": "I'm a software engineer with training in computer architecture, machine learning, and embedded systems. I'm currently a software engineer at Zoox, working on building simulators to robustly validate the behavior and safety of autonomous vehicles. My work involves designing and building tools for scenario creation, behavior validation, and model training. In my free time I climb rocks, read books, and build stuff.",
     "contact": {
-        "description": "Please feel free to reach out to me on Linkedin. I'm always happy tochat with people about projects, startups, or pretty much anything.",
+        "description": "Feel free to reach out to me on Linkedin! I'm always happy to chat with people about projects, startups, or pretty much anything.",
         "linkedinUrl": "https://www.linkedin.com/in/sean-k-19a327b2/",
         "githubUrl": "https://github.com/swkonz"
     },
