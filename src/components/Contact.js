@@ -13,7 +13,10 @@ export default function Contact() {
               rel="noopener noreferrer"
               href={data.contact.linkedinUrl}
             >
-              <img src={require("../images/linkedin_icon.png")} />
+              <img
+                src={require("../images/linkedin_icon.png")}
+                alt="linkedin icon"
+              />
             </a>
           </div>
         ) : null}
@@ -24,7 +27,10 @@ export default function Contact() {
               rel="noopener noreferrer"
               href={data.contact.githubUrl}
             >
-              <img src={require("../images/github_icon.png")} />
+              <img
+                src={require("../images/github_icon.png")}
+                alt="github icon"
+              />
             </a>
           </div>
         ) : null}
