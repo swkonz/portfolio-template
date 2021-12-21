@@ -1,0 +1,156 @@
+{
+    "aboutDescription": "I'm a software engineer with training in computer architecture, machine learning, and embedded systems. I'm currently a software engineer at Zoox, working on building simulators to robustly validate the behavior and safety of autonomous vehicles. My work involves designing and building tools for scenario creation, behavior validation, and model training. In my free time I climb rocks, read books, and build stuff.",
+    "contact": {
+        "description": "Please feel free to reach out to me on Linkedin. I'm always happy tochat with people about projects, startups, or pretty much anything.",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-k-19a327b2/",
+        "githubUrl": "https://github.com/swkonz"
+    },
+    "projects": [
+        {
+            "includeImage": true,
+            "title": "CS 107E: Grading Infrastructure",
+            "description":
+              "I worked as a course Assistant for CS 107E during my 4 quarters as a graduate student. During that time, I worked on rebuilding the course grading infrastructure from scratch using python, C, and makefile scripts. We iterated on the design four times, throwing out thousands of lines in the process. The result was a simplified grading infrastructure that was powerful enough to enable more accurate grading processes, despite all code being run on baremetal.",
+            "tags": [
+              "Computer Science Instruction",
+              "Embedded Systems",
+              "Git",
+              "C",
+              "Python",
+              "Test-Driven Development"
+            ],
+            "link": "https://github.com/cs107e"
+          },
+        {
+            "includeImage": true,
+            "title": "Invicted: Criminal Justice Technology",
+            "description":
+              "In 2017 I helped found Invicted along with two other Stanford Students. Invicted's mision was to build products and services to help formerly incarcerated people and returning citizens. We worked on various products ideas including a software-based impairment detection (for replacing cumbersome and invasive drug screening tools), a resource hub (for collecting information on what tools and services helped people most when returning home), and a guide tool to formalize steps and processes that most returning citizens or probationees find helpful. I went on to continue working on Invicted with Ideas42 where we built Vergil and went on to close contracts with county probation departments and receive over $1M in grant funding.",
+            "tags": [
+              "Web development",
+              "Project Management",
+              "Heroku",
+              "React",
+              "Computer Vision"
+            ],
+            "link": "https://www.vergil.app/"
+          },
+        {
+            "includeImage": true,
+            "title": "RPI Arcade: Baremetal Raspberry Pi Arcade Machine",
+            "description":
+              "While working as a Course Assistant for Stanford's CS 107E, I worked on building a basic Arcade machine on a baremetal Raspberry Pi A. All the code was written in C or assembly language and was run without a supervisor. Everything from heap allocation, GPIO drivers, and graphics drivers were written from scratch.",
+            "tags": [
+              "Systems Programming",
+              "Digital Circuits",
+              "Raspberry Pi"
+            ],
+            "link": "https://github.com/swkonz/rpi-arcade"
+          },
+          {
+            "includeImage": true,
+            "title": "Wint-E: Launcher Robot",
+            "description":
+              "As a student in Stanford's ME 210, I worked in a team of four to build a custom battle robot that could launch nerf balls to knock down block towers from up to 4 meters away.",
+            "tags": [
+              "Analog Circuits",
+              "Power electronics",
+              "Arduino"
+            ],
+            "link": "https://wintetheroomba.weebly.com/"
+          }
+    ],
+    "skills": {
+        "groups": [
+            {
+                "title": "Technical Skills",
+                "items": [
+                    {
+                        "name": "Performant Systems (C++)",
+                        "proficiency": 95
+                    },
+                    {
+                        "name": "Full Stack Web (React, Vue, Node, Flask)",
+                        "proficiency": 90
+                    },
+                    {
+                        "name": "Machine Learning (RL, Supervised, Cuda)",
+                        "proficiency": 75
+                    },
+                    {
+                        "name": "Embedded Systems (C, C++, assembly)",
+                        "proficiency": 70
+                    }
+                ]
+            },
+            {
+                "title": "Operational Skills",
+                "items": [
+                    {
+                        "name": "Rapid Prototyping",
+                        "proficiency": 90
+                    },
+                    {
+                        "name": "Project Management",
+                        "proficiency": 85
+                    },
+                    {
+                        "name": "System Design",
+                        "proficiency": 80
+                    },
+                    {
+                        "name": "UX Design",
+                        "proficiency": 75
+                    }
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "groups": [
+            {
+                "title": "Education",
+                "items": [
+                    {
+                        "range": "2020 - 2021",
+                        "heading": "Stanford University",
+                        "title": "M.S. Computer Science - Artificial Intelligence",
+                        "description": "My MS focused on applied AI techniques and writing performant software. My coursework covered parallel programming with CUDA and SIMD frameworks, AI modeling, and programming languages. I also helped teach the baremetal systems programming course CS 107E."
+                    },
+                    {
+                        "range": "2016 - 2020",
+                        "heading": "Stanford University",
+                        "title": "B.S. Electrical Engineering - Hardware Software Systems",
+                        "description": "My BS focused on understanding the intersection of computer hardware and software. My coursework covered computer architecture through object oriented programming. I also helped teach the introductory Computer Science course CS 106A."
+                    }
+                ]
+            },
+            {
+                "title": "Experience",
+                "items": [
+                    {
+                        "range": "2021 - present",
+                        "heading": "Zoox",
+                        "title": "Software Engineer - Simulation & Planner Research",
+                        "description": "My work focuses on building tools to support scenario creation and evalution using C++ and typescript. Additionally, I help support teams using our simulator to enable model training using python and C++."
+                    },
+                    {
+                        "range": "2019 - 2021",
+                        "heading": "Vergil - Ideas42",
+                        "title": "Lead Developer",
+                        "description": "Architected and Developed a behavioral science backed mobile application to improve resource utilization and reduce recidivism rates for community supervision populations. Integrated Vergil app with a large, government case management system in collaboration with government IT."
+                    },
+                    {
+                        "range": "2021",
+                        "heading": "Udelv",
+                        "title": "Software Engineer Intern",
+                        "description": "Developed teleoperation streaming console that reduced data transmission by 95%. Designed and built fleet operations simulation editor using React and flask."
+                    }
+                ]
+            }
+        ]
+    },
+    "name": "Sean Konz",
+    "title": "Software Engineer",
+    "shortBio": "An ambitious and collaborative engineer with a background in computer systems, web development, machine learning, and a bit of everything in between."
+}
