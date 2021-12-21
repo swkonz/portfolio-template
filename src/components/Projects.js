@@ -21,7 +21,7 @@ export default function Projects() {
               toggleVisible(0);
             }}
           >
-            <img src={projectImages[0]} alt="Project image"></img>
+            <img src={projectImages[0]} alt="Project 0"></img>
           </div>
         </div>
         <div className="column">
@@ -31,7 +31,7 @@ export default function Projects() {
               toggleVisible(1);
             }}
           >
-            <img src={projectImages[1]} alt="Project image"></img>
+            <img src={projectImages[1]} alt="Project 1"></img>
           </div>
         </div>
         <div className="column">
@@ -41,7 +41,7 @@ export default function Projects() {
               toggleVisible(2);
             }}
           >
-            <img src={projectImages[2]} alt="Project image"></img>
+            <img src={projectImages[2]} alt="Project 2"></img>
           </div>
         </div>
         <div className="column">
@@ -51,7 +51,7 @@ export default function Projects() {
               toggleVisible(3);
             }}
           >
-            <img src={projectImages[3]} alt="Project image"></img>
+            <img src={projectImages[3]} alt="Project 3"></img>
           </div>
         </div>
       </div>

@@ -14,7 +14,10 @@ const ProjectPopup = (props) => {
 
         <div className="project-header">
           {data.projects[projectIndex].includeImage ? (
-            <img src={projectImages[projectIndex]} alt="Project image" />
+            <img
+              src={projectImages[projectIndex]}
+              alt={"Project " + projectIndex}
+            />
           ) : null}
           <h1>{data.projects[projectIndex].title}</h1>
         </div>
