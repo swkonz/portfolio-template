@@ -15,7 +15,7 @@ export default function Skills() {
                       <div className="exp-column">
                         <div className="exp-content">
                           <div className="exp-year">{item.range}</div>
-                          <div className="exp-title">{item.header}</div>
+                          <div className="exp-title">{item.heading}</div>
                         </div>
                         <div className="exp-bottom">
                           <h1>{item.title}</h1>
