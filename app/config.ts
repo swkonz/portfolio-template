@@ -48,10 +48,9 @@ const config: SiteConfig = {
         body: "Sometimes I help early companies build their first products. Like Vergil and Journey",
         links: [
           {
-            text: "Vergil",
-            url: "https://medium.com/coding-it-forward/a-new-support-platform-for-the-formerly-incarcerated-community-503c3f508c62",
+            text: "Projects",
+            url: "/stuff/projects",
           },
-          { text: "Journey", url: "https://www.journeybio.life/" },
         ],
       },
       {
