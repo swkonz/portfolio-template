@@ -37,15 +37,15 @@ const config: SiteConfig = {
     title: "Sean_Konz",
     description: "Work, Projects, Musings, etc",
     short_bio:
-      "I'm Sean, a software engineer based in the San Francisco Bay Area. I focus on applied machine learning, robotics, and full stack web development.",
+      "I'm Sean, a software engineer based in the San Francisco. I focus on machine learning, robotics, and web development. Sometimes I do hardware.",
     headlines: [
       {
         icon: "🛠️",
-        body: "I like to build things. Software, hardware, carpentry, teams, theatre.",
+        body: "I'm currently exploring new projects at South Park Commons. Looking at AI, automation, and robotics.",
       },
       {
         icon: "🏁",
-        body: "Sometimes I help early companies build their first products. Like Vergil and Journey",
+        body: "I help early companies build their products and technical teams. Like Vergil and Journey",
         links: [
           {
             text: "Projects",
@@ -55,12 +55,12 @@ const config: SiteConfig = {
       },
       {
         icon: "🤖",
-        body: "I help build simulation tools for developing and testing autonomous vehicles",
+        body: "I previously built simulation tools for developing and testing autonomous vehicles at ",
         links: [{ text: "Zoox", url: "https://zoox.com/journal/sean2024" }],
       },
       {
         icon: "👋",
-        body: "Feel free to get in touch on",
+        body: "If you're interested in contract work, or are otherwise inclined, shoot me a message on ",
         links: [
           {
             text: "Linkedin",
