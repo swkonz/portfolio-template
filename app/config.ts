@@ -37,11 +37,15 @@ const config: SiteConfig = {
     title: "Sean_Konz",
     description: "Work, Projects, Musings, etc",
     short_bio:
-      "I'm Sean, a software engineer based in the San Francisco. I focus on machine learning, robotics, and web development. Sometimes I do hardware.",
+      "I'm Sean, a software engineer based in the San Francisco.\nI focus on machine learning, robotics, and web development.",
     headlines: [
       {
         icon: "🛠️",
         body: "I'm currently exploring new projects at South Park Commons. Looking at AI, automation, and robotics.",
+      },
+      {
+        icon: "💡",
+        body: "I'm an electrical engineer turned software engineer. I mostly stick to software these days, but I still enjoy dabbling in electronics.",
       },
       {
         icon: "🏁",
