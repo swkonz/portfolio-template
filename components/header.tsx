@@ -105,6 +105,9 @@ export function Header() {
                         </a>
                       </NavigationMenuLink>
                     </li>
+                    <ListItem href="/stuff/now" title="Now">
+                      What I'm doing now
+                    </ListItem>
                     <ListItem href="/stuff/projects" title="Projects">
                       Past projects
                     </ListItem>
